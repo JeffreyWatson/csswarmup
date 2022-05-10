@@ -1,0 +1,56 @@
+:root {
+  --primary: rgb(42, 204, 33);
+  --secondary-lighten: rgb(248, 245, 53);
+}
+
+body {
+  background-color: white;
+  margin: .1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: var(--primary);
+  color: white;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 34pt;
+  height: 100px;
+}
+
+h4 {
+  background-color: var(--secondary-lighten);
+  color: var(--secondary-lighten);
+}
+
+.card {
+  background-color: var(--primary);
+  width: 100%;
+  height: 25%;
+}
+
+.title {
+  font-size: 24pt;
+  color: black;
+}
+
+.content {
+  padding-left: 5em;
+  padding-top: 5em;
+  max-width: 60%;
+}
+
+.img-with-text {
+  text-align: justify;
+  width: 290px;
+  position: absolute;
+  right: 2px;
+  padding-top: 85;
+}
+
+.d-flex {
+  display: flex;
+  /* flex-direction: row; */
+}
